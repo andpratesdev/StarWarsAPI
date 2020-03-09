@@ -22,8 +22,10 @@ Para rodar o projeto no eclipse, importe no eclipse e rode a aplicação.
 
 __Maven__
 
-Para rodar no maven, deve ter instalado o Apache Maven.
+Para rodar no maven, deve ter instalado o Apache Maven e configurado o maven na variável de ambiente.
+
 Dentro da pasta onde está o arquivo pom.xml, executar o comando: mvn clean install
+
 Na pasta target, executar o comando: java -jar planetas-starwars-0.0.1-SNAPSHOT.jar
 
 A aplicação estará rodando e pode ser utilzada pelo caminho http://localhost:8080/api
